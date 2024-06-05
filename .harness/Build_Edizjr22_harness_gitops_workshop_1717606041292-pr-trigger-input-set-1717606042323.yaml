@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Edizjr22_harness_gitops_workshop_1717606041292-pr-trigger-input-set
+  identifier: Build_Edizjr22_harness_gitops_workshop_1717606041292prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Edizjr22_harness_gitops_workshop_1717606041292
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
